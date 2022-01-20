@@ -1,0 +1,761 @@
+ls
+ls
+ls
+ls
+cd ~/Downloads
+l
+ls
+unzp
+sudo pacman -S unzip
+unzip dots-main.zip
+ls
+cd dots-main
+sl
+ls
+mv zsh ~/.config
+ls
+cd
+ll
+ls
+nvim .zshenv
+vue add router
+git add .
+git commit -m "started"
+ls
+ls
+cd server/
+ls
+npm init 
+npm install express
+cd ..
+ls
+npm run build
+cd server/
+ls
+node index.js 
+pdw
+pwd
+node index.js 
+fg
+ls
+ls
+ll
+ls
+ls
+cd Desktop/
+ls
+ls
+ls
+ll
+ls
+man coproc
+help coproc
+ls
+ls
+ll
+ls
+nvim .bashrc
+builtin 
+builtin list
+builtin help
+exit
+ls
+ll
+man exit
+exit 1
+exec ls
+exec ls
+exec "sleep"
+cd ..
+npm run serv
+npm run serve
+vue add router
+git init 
+git add .
+git commit -m "adding router"
+vue add router
+zsh
+ps a
+ps u --forest
+ps u --forest
+exec ls
+ls
+ls
+ls
+ls
+sleep 10
+tmux
+sleep 10
+ls
+ls
+ll
+ls
+cd Code/
+cd c
+ls
+ll
+cd 2
+ls
+ll
+ls
+nvim watch.c
+./watch .
+python --help
+echo hello world
+fd stdio.h /
+strings main
+ls
+ls
+ll
+ls
+ll
+ls
+cd Desktop/
+ls
+ls
+nc 
+nc 9999
+nc -p 9999
+nc localhost -p 9999
+nc localhost:9999
+nc localhost 9999
+nc localhost 9999
+cargo r
+cargo r
+cargo r
+cargo r
+cargo r
+cargo r
+cargo r
+man ascii
+cargo r
+cargo r
+cargo r
+cargo r
+cargo r
+cargo r
+cargo r
+cargo r
+cargo r
+cargo r
+cargo r
+cargo r
+cargo r
+cargo r
+cargo r
+cargo r
+gcclar
+cargo r
+cargo r localhost
+echo $0
+zsh
+cargo r localhost hello there panda boy 123
+cargo r
+cargo r
+cargo r
+cargo r
+cargo r
+zsh
+cargo r
+cd /run/docker
+ls
+ll
+ls -la
+cd containerd/
+ls
+cd tmp
+ls
+cd ..
+ls
+ls
+python %
+python hello.py 
+whereis ls
+which cd
+cd .dropbox
+ls
+ll
+nvim .bashr
+nvim .bashrc
+cd
+nvim .bashrc
+cd Dropbox/assign2_template/
+ls
+z 
+nvim .zshenv
+reload
+echo $0
+help read
+ls
+ll
+ls -l
+lls
+ls
+pwd
+help builtins
+man builtins
+help cd
+ls
+ls
+ll
+cd Pictures/
+ls
+help cd
+ls
+NVIM 
+nvim
+nvim
+nvim
+nvim
+n
+nvim ~/.bashrc 
+reload
+nvim ~/.bashrc 
+reload
+ll
+la
+la
+ls -la
+nvim
+nvim 
+nvim 
+nvim 
+nvim 
+nvim 
+nvim 
+alacritty-themes 
+ls
+ll
+nvim 
+nvim 
+ls
+ll
+nvim 
+nvim 
+nvim 
+alacritty-themes 
+rm -rf .atom/
+ls
+paru --help
+paru -P
+paru -P --hlep
+paru -P --help
+paru -P alacritty
+paru -p alacritty
+paru dotnet
+du -h -s
+du -d 1 -h 
+cd .config/
+du -d 1 -h 
+du -d 1 -h  | sort -h
+cd ..
+du -d 1 -h  | sort -h
+cd .config/
+du -d 1 -h  | sort -h
+rm -rf Atom/
+ls
+ll
+ls
+btop
+ls
+nvim monitors.xml
+ll
+ls
+nvim remmina/
+ls
+ll
+nvim ~/.bashrc 
+reload
+be
+reload
+be
+be
+be
+ls
+ls
+ll
+rm -rf cairo-dock/
+ls
+ll
+nvim user-share/
+ls
+ll
+reload
+ls
+ll
+ll
+rm -rf JetBrains/
+ls
+ll
+cd mypaint/
+ls
+ll
+nvi settings.json 
+n settings.json 
+ls
+cd ..
+ls
+ll
+ls my-electron-app/
+cd ..
+ll
+cd .config/
+ls
+ls
+nvim autostart/
+alacritty-themes 
+ls
+ll
+nvim autostart/
+ll
+cd procps/
+ls
+lls
+ls
+ls -la
+cd ..
+ls
+ll
+ls
+cd autostart/
+ls
+cd btop
+cd ..
+ls
+cd btop/
+ls
+ll
+nvim btop.conf 
+ls
+ll
+cd themes/
+ls
+ll
+la
+cd ..
+cd ..
+ls
+ll
+ls
+nvim configstore/
+ls
+rm -rf configstore/
+ls
+ll
+ls
+nvim dconf/
+ls
+ed epiphany/
+ls
+cd epiphany/
+ls
+ls
+ls -la
+cd ..
+ls
+find -type d -exec rmdir -i {}\;
+find . -type d -exec rmdir -i {}\;
+find . -type d -exec "rmdir -i {}\;"
+man find
+find . -type d -exec ls
+tldr find
+find -type d
+find -type d -d 1
+find . -d 1 -type d 
+find . -depth 1 -type d 
+find . -depth 1  -type d 
+find ./ -depth 1  -type d 
+find ./ -depth=1  -type d 
+find ./ -depth 1  -type d 
+find ./ -maxdepth 1  -type d 
+find ./ -maxdepth 1  -type d -empty 
+man find
+find ./ -maxdepth 1  -type d -empty -d -v
+find ./ -maxdepth 1  -type d -empty -delete -v
+find ./ -maxdepth 1  -type d -empty -delete -verbose
+find ./ -maxdepth 1  -type d -empty -delete 
+ls
+ls
+rm -rf gedit/
+ls
+ll
+ls
+virtualbox 
+pacman --help -R
+pacman -Rp virtual-box
+pacman -Rp virtualbox
+man pacman
+man pacman -R
+pacman -R -h
+pacman -Run  --confirm
+pacman -Run virtualbox  --confirm
+sudo pacman -Run virtualbox  --confirm
+ll
+ls
+ls
+cd /etc
+ls
+ls
+clear
+ls
+java
+ls
+cd depmod.d/
+ls
+la
+cd ..
+ls
+ls
+e            docker                        hp             libvirt          nsswitch.conf   resolv.conf        tmpfiles.d
+asound.conf             e2scrub.conf                  httpd          locale.conf      OpenCL          rhashrc            trusted-key.key
+audit                   environment                   i3             locale.gen       openldap        rpc                ts.conf
+avahi                   ethertypes                    i3blocks.conf  localtime        openmpi         rygel.conf         udev
+bash.bash_logout        fish                          i3status.conf  login.defs       openvpn         samba              udisks2
+bash.bashrc             fonts                         ImageMagick-7  logrotate.d      opt             sane.d             UPower
+bindresvport.blacklist  foomatic                      initcpio       lvm              os-release      sasl2              vde
+binfmt.d                fstab                         inputrc        machine-id       pacman.conf     securetty          vde2
+bluetooth               fuse.conf                     iproute2       mailcap          pacman.d        security           vdpau_wrapper.cfg
+brlapi.key              gai.conf                      iptables       makepkg.conf     pam.d           sensors3.conf      vimrc
+brltty.conf             gdb                           issue          man_db.conf      papersize       sensors.d          vulkan
+ca-certificates         gdm                           jack           mdadm.conf       paru.conf       services           wgetrc
+chromium                geoclue                       java-openjdk   mime.types       passwd          shadow             wpa_supplicant
+cifs-utils              gromit-mpx                    kernel         mke2fs.conf      passwd-         shadow-            X11
+conf.d                  group                         keyutils       mkinitcpio.conf  php             shells             xattr.conf
+crypttab                group-                        krb5.conf      mkinitcpio.d     pinentry        skel               xdg
+ctdb                    grub.d                        ld.so.cache    modprobe.d       pkcs11          slsh.rc            xinetd.d
+cups                    gshadow                       ld.so.conf     modules-load.d   polkit-1        speech-dispatcher  zsh
+daxctl.conf.d           gshadow-                      ld.so.conf.d   mtab             profile         ssh
+dbus-1                  gssapi_mech.conf              libao.conf     mtools.conf      profile.d       ssl
+dconf                   gtk-2.0                       libaudit.conf  ndctl            protocols       sudo.conf
+default                 gtk-3.0                       libblockdev    ndctl.conf.d     pulse           sudoersls -l
+ls -l
+cd audit/
+ls
+ll
+auditctl 
+ls
+cd ..
+ls
+ls
+nvim bash.bash_logout 
+cat bash.bash_logout 
+nvim bash.bash_logout 
+ls
+ls
+cd /usr/share/
+ls
+ls
+ls btop/
+ls
+ls
+ls btop
+fd btop / 
+pacman -Sc
+sudo pacman -Sc
+fd btop / 
+fd btop /  --help
+man fd
+fd btop /  -F
+man fd
+fd btop /
+ls
+ls
+sudo pacman -S btop
+ls
+paru btop
+ls
+ls
+orca
+man orca
+pkill orca
+ls
+/run/user/1000/
+cd /run/user/1000/
+ls
+ll
+cd speech-dispatcher/
+ls
+ll
+cat log/speech-dispatcher.log 
+ls
+cd 
+ls
+ls
+cd /usr/share/
+ls
+ls
+lshv
+lshw
+ls
+enchant-lsmod-2 
+enchant-2
+enchant-2 --help
+man enchant-2
+ls
+ls
+pacman -Qu
+pacman -Q -h
+pacman -Qt
+pacman -Q -h
+pacman -Qk
+ls
+ss
+ss -h
+ss 
+ls
+cd backgrounds/
+ls
+ls
+ls
+pacman -h
+pacman -U 
+pacman -U -h 
+pacman -Up
+pacman -Gu
+pacman -Qu
+ls
+cd ..
+ls
+ls
+hp-clean 
+sudo pacman -R -h
+sudo pacman -Runs hp
+sudo pacman -Runs hplib
+sudo pacman -Qu hp
+sudo pacman -Q hp
+sudo pacman -Q hplip/
+cargo r
+ls
+ll
+ls
+id
+ls
+ls
+ll
+ls
+lasd
+ls
+ls
+adsdads
+ls
+ll
+ll
+ls
+:term
+ls
+ls
+alias -p
+alias --help
+sleep 10
+be
+reload
+nvim .bashrc 
+reload
+ps 
+ps --forest
+ls
+ll
+sleep 1
+sleep 10
+sleep 10 &
+ps
+bg
+bg 
+sleep 10 &
+bg
+fg
+nvim
+bg --help
+fg --help
+fg
+fg
+ls
+ll
+ll
+while (( 1 < 2 )); do while (( 1 == 1 )); do break 2; done; done
+while (( 1 < 2 )); do while (( 1 == 1 )); do break ; done; done
+caller
+caller while
+cd --help
+command --help
+command -p ls
+command -V ls
+command -v ls
+command -V ls
+command -V pwd
+compgen l
+compgen --help
+compgen -C l
+declare -A array
+array[hello]=10
+array[hello]
+echo array[hello]
+echo $array[hello]
+
+declare -A array
+$array[hello]=10
+declare -A array
+array[hello]=lol
+echo ${array[hello]}
+declare --help
+declare -l -A array=( [HDD]=Samsung)
+echo ${array[hdd]}
+echo ${array[HDD]}
+declare -l  array=( [HDD]=Samsung)
+echo ${array[hdd]}
+declare -l  array=( HDD)
+echo $array
+echo $array[0]
+echo ${array[0]}
+echo ${array[1]}
+echo ${array*}
+echo ${array}
+arr=(1 2 3)
+echo ${array[1]}
+echo ${arr[1]}
+dirs
+dirs -v
+vim .bashrc 
+reload
+cd Downloads/
+ls
+dirs
+dirs -v
+cd
+dirs -v
+pushd
+pushd Downloads/
+dirs -v
+cd ~1
+nvim .bashrc
+reload
+cd Downloads/
+pushd --help
+dirs -v
+cd ~0
+cd
+nvim ~/.bashrc 
+reload
+cd
+ls
+ll
+ll
+ps 
+ps -H
+ps --forest
+echo $0
+pushd .
+pushd Downloads/
+pushd /etc
+dirs
+dirs -v
+cd ~0
+cd ~1
+dirs -v
+nvim .bash
+nvim .bashrc 
+picom
+picom &
+ls
+disown picom
+ls
+pkill picom
+ls
+eval ls
+eval ls -la
+exec ls
+builtin 
+builtin  --help
+man bash
+nvim .bash_profile 
+export -p
+declare --help
+export -p
+env
+env
+env
+ls -la | gep
+ls -la | grep
+ls -la | grep vim
+history 
+hash ls
+hash -t
+hash -l
+ls
+ll
+sleep 10 &
+jobs
+sleep 10 &
+jobs
+jobs 1
+jobs
+logout
+echo 1 2 3 | readarray
+printf "1 2 3" | readarray -d  array
+printf "1 2 3" | readarray -d ' '  array
+echo ${array[0]}
+echo ${array[1]}
+times
+ls
+la
+ssh tun29878@cis-linux2 -p 22
+ssh tun29878@cis-linux2 -p 22
+vim ~/.bash_profile 
+cd
+v .bash_profile 
+xinit
+startx
+ll
+vim .
+vim .
+v
+cd Spring2022/
+ls
+l
+ll
+ls
+cd Spring2022/
+ls
+pwd
+..
+cd ..
+ls
+cd ..
+ls
+ll
+vim commands.text 
+pwd
+pwd
+man bash
+bash --verbose
+ls
+exit
+echo $EPOCH
+echo $EPOCHREALTIME 
+echo $EPOCHSECONDS 
+echo $BASH_ARGC
+echo $BASH_ALIASES 
+echo $MAIL
+echo $USER
+ll
+vim .
+ls
+ll
+help ls
+help help
+builtin --help
+man bash
+bash -l
+exit
+cargo r
+ls
+ll
+ls
+pwd
+set  --help
+man set
+shopt --helel
+shopt --help
+man shopt
+echo $HISTFILE
+echo $HISTFILE
