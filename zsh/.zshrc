@@ -1,6 +1,6 @@
 #!/bin/zsh
 source $ZDOTDIR/aliases
-#source $ZDOTDIR/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source $ZDOTDIR/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 autoload -Uz compinit && compinit
 _comp_options+=(globdots)
@@ -27,7 +27,7 @@ zstyle ':completion:*' menu select
 zstyle ':completion:*' file-sort modification
 zstyle ':completion:::::descriptions' format '%F{green}-- %d --%f'
 zstyle ':completion:' group-name ''
-zstyle ':completion:' list-separator '->'
+zstyle ':completion:' list-separator '⇒'
 zstyle ':completion:' matcher-list '' 'm:{a-zA-Z}={A-Za-z}'
 
 # Options
@@ -41,5 +41,6 @@ bindkey '^E' end-of-line
 #python /opt/motivate/motivate.py
 
 #PROMPT='%F{white}%B%3~%b%fy$(git_branch_name) %F{green}%{%1G✔%}%f '
-PROMPT='%F{cyan}%3~%f$(git_branch_name) %F{green}%{❯%1G%}%f '
+#PROMPT='%F{cyan}%3~%f$(git_branch_name) %F{green}%{»%1G%}%f '
+PROMPT='%F{cyan}%3~%f$(git_branch_name) %F{green}»%f '
 path+='/home/alex/.cargo/bin/'

@@ -1,8 +1,10 @@
 #!/bin/zsh
 alias reload="source ~/.config/zsh/.zshrc"
 alias grep="grep --color=always"
+# EDITORS
 alias ze="nvim $ZDOTDIR/.zshrc"
 alias ae="nvim ~/.config/alacritty/alacritty.yml"
+alias ke="nvim ~/.config/kitty/kitty.conf"
 alias ls="ls --color=always -h "
 alias ..="cd .."
 alias ...="cd ../.."
@@ -15,7 +17,6 @@ alias n="nvim"
 alias ip="ip --color"
 alias v="vim"
 alias open="xdg-open"
-alias mv="mv -v"
 alias diff="diff --color=always"
 alias updateSystem="sudo pacman --sync --refresh --sysupgrade"
 alias \$=""
