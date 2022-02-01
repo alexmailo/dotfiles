@@ -26,9 +26,9 @@ zstyle ':completion:*' list-colors 'di=1;34'
 zstyle ':completion:*' menu select
 zstyle ':completion:*' file-sort modification
 zstyle ':completion:::::descriptions' format '%F{green}-- %d --%f'
-zstyle ':completion:' group-name ''
-zstyle ':completion:' list-separator '⇒'
-zstyle ':completion:' matcher-list '' 'm:{a-zA-Z}={A-Za-z}'
+zstyle ':completion:*' group-name ''
+zstyle ':completion:*' list-separator '⇒'
+zstyle ':completion:*' matcher-list '' 'm:{a-zA-Z}={A-Za-z}'
 
 # Options
 setopt prompt_subst autocd autopushd pushdignoredups histfindnodups histignorealldups histsavenodups
