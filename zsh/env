@@ -1,0 +1,21 @@
+#!/bin/zsh
+export EDITOR=nvim
+export VISUAL=nvim
+export SHELL=/bin/zsh
+export LESSHISTFILE=/dev/null
+export TMPDIR=/tmp
+export NODE_REPL_HISTORY=/tmp/node_repl_history
+
+export LESS_TERMCAP_mb=$'\E[6m'          # begin blinking
+export LESS_TERMCAP_md=$'\E[34m'         # begin bold
+export LESS_TERMCAP_us=$'\E[34m'       # begin underline
+export LESS_TERMCAP_me=$'\E[0m'          # end mode
+export LESS_TERMCAP_ue=$'\E[0m'          # end underline
+export LESS_TERMCAP_se=$'\E[0m'          # end standout-mode
+# export MANPAGER='nvim +Man!'
+
+
+path+=(/home/alex/Code/scripts/)
+path+=(/home/alex/.local/bin)
+path+=(/home/alex/.cargo/bin/)
+typeset -U path

@@ -1,0 +1,29 @@
+#!/bin/zsh
+wal-me() {
+	wal -n -i ~/Pictures/ --iterative
+	feh --bg-fill "$(< "${HOME}/.cache/wal/wal")"
+}
+
+wal-dir() {
+	wal -n -i $1 --iterative
+	feh --bg-fill "$(< "${HOME}/.cache/wal/wal")"
+}
+
+git_branch_name() {
+	if branch=$( git branch --show-current 2>/dev/null) then
+		echo -e " $branch "
+	fi
+}
+
+lsbins(){
+	ls -1 /usr/bin
+}
+
+printpath(){
+	i=0
+	for dir in $(echo $PATH | xargs -d:); do
+		((i=i+1))
+		echo $i $dir
+	done
+}
+

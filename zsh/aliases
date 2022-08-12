@@ -1,17 +1,23 @@
 #!/bin/zsh
+#        _ _                     
+#   __ _| (_) __ _ ___  ___  ___ 
+#  / _` | | |/ _` / __|/ _ \/ __|
+# | (_| | | | (_| \__ \  __/\__ \
+#  \__,_|_|_|\__,_|___/\___||___/
+                               
+alias ze="nvim $ZDOTDIR/.zshrc"
+alias cal="cal -m"
+alias at='alacritty-themes'
+alias gdb="gdb -q"
+alias ae="nvim ~/.config/alacritty/alacritty.yml"
+alias be="nvim ~/.bashrc"
 alias reload="source ~/.config/zsh/.zshrc"
 alias grep="grep --color=always"
-# EDITORS
-alias ze="nvim $ZDOTDIR/.zshrc"
-alias ae="nvim ~/.config/alacritty/alacritty.yml"
-alias ke="nvim ~/.config/kitty/kitty.conf"
-alias ls="ls --color=always -h "
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
-alias ll="ls -l"
-alias la="ls -a"
-alias fd="fd --color=never"
+alias fd="fd  --hidden --color=never"
+alias fucking="sudo"
 alias dl="cd ~/Downloads"
 alias n="nvim"
 alias ip="ip --color"
@@ -22,5 +28,31 @@ alias updateSystem="sudo pacman --sync --refresh --sysupgrade"
 alias \$=""
 alias nv="nvim"
 alias nvi="nvim"
-alias len="wc -c"
-alias rm="rm -I"
+alias len="expr length"
+alias kittythemes="kitty +kitten themes"
+alias screenkey="screenkey -g 30%x10%+70%-90% -p fixed"
+alias ncdu="ncdu --color dark"
+
+#  _     
+# | |___ 
+# | / __|
+# | \__ \
+# |_|___/
+       
+alias ls="ls --color=always -h "
+alias ll="ls -l"
+alias la="ls -A"
+alias lla="ls -l -A"
+
+
+#        _ _   
+#   __ _(_) |_ 
+#  / _` | | __|
+# | (_| | | |_ 
+#  \__, |_|\__|
+#  |___/       
+
+alias ga="git add"
+alias gc="git commit"
+alias gd="git diff"
+alias gl="git log"
