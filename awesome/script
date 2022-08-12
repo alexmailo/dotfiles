@@ -1,0 +1,26 @@
+#!/bin/bash
+
+execNitrogen(){
+	nitrogen --restore
+}
+
+execFeh(){
+	~/.fehbg
+}
+
+nitrogenPath=~/.config/nitrogen/bg-saved.cfg
+fehPath=~/.fehbg
+
+if [ -f "$nitrogenPath"  -a ! -f "$fehPath" ]; then
+	execNitrogen
+elif [ ! -f "$nitrogenPath"  -a  -f "$fehPath" ]; then
+	execFeh
+elif [ -f "$nitrogenPath" -a -f "$fehPath" ]; then
+	if [ "$nitrogenPath" -nt "$fehPath" ]; then
+		execNitrogen
+	else
+		execFeh
+	fi
+else
+	echo "Nothing exists"
+fi

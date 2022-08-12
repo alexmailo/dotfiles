@@ -1,0 +1,109 @@
+configuration {
+    font: "Nunito Bold 15";
+    show-icons: true;
+    icon-theme: "Papirus";
+    display-drun: "";
+    drun-display-format: "{name}\n[<span weight='light'  size='small'><i>{comment}</i></span>]";
+    disable-history: false;
+    sidebar-mode: false;
+    fixed-num-lines: true;
+}
+
+
+/* -- Dark -- */
+
+* {
+    background: #000000;
+    background-alt: #00000000;
+    background-bar: #151515FF;
+    foreground: #EDEDEDFF;
+    accent: #EDEDED4d;
+    border: #1A73E9FF;
+    selected: #151515ff;
+}
+
+window {
+    transparency: "real";
+    background-color: @background;
+    text-color: @foreground;
+    border: 0px;
+    border-color: @border;
+    width: 35%;
+    dynamic: true;
+    location: center;
+    x-offset: 5px;
+    children: [mainbox];
+	height: 25%;
+}
+
+prompt {
+    enabled: true;
+    background-color: @background-alt;
+    text-color: @foreground;
+}
+
+entry {
+    background-color: @background-alt;
+    text-color: @foreground;
+    placeholder-color: @foreground;
+    expand: true;
+    horizontal-align: 0;
+    padding: -0.15% 0% 0% 0%;
+    blink: true;
+}
+
+inputbar {
+    children: [ prompt, entry];
+    background-color: #111;
+    text-color: @foreground;
+    expand: false;
+    margin: 0% 0% 0% 0%;
+    padding: 1.25%;
+}
+
+listview {
+    background-color: @background-alt;
+    columns: 1;
+    spacing: 0%;
+    layout: vertical;
+    dynamic: true;
+    lines: 5;
+}
+
+mainbox {
+    background-color: @background-alt;
+    border: 0% 0% 0% 0%;
+    border-radius: 0% 0% 0% 0%;
+    border-color: @accent;
+    children: [ inputbar, listview];
+    spacing: 2%;
+    padding: 2% 1% 2% 1%;
+}
+
+element {
+    background-color: inherit;
+    text-color: @foreground;
+    border-radius: 0%;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+element-icon {
+    background-color: inherit;
+    text-color: inherit;
+    size: 30px;
+    border: 0px;
+    margin: 0px 20px 0px 0px;
+}
+
+element-text {
+    background-color: inherit;
+    text-color: inherit;
+    vertical-align: 0.5;
+    horizontal-align: 0;
+}
+
+element selected {
+    background-color: @selected;
+    text-color: @foreground;
+}
