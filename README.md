@@ -7,4 +7,4 @@
 - Browser: Brave Browser / Firefox
 
 
-<img src="assets/ss.png" />
+<img src="screenshots/ss.png" />
